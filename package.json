@@ -1,26 +1,22 @@
 {
-  "name": "three_web_demo",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "gsap": "^3.11.4",
+    "parcel": "^2.8.3",
+    "three": "^0.150.1",
+    "webpack": "^5.75.0"
+  },
+  "name": "webgl",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "script.js",
+  "module": "main.js",
   "scripts": {
-    "serve": "http-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx parcel index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Realistic3D/three_web_demo.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Realistic3D/three_web_demo/issues"
-  },
-  "homepage": "https://github.com/Realistic3D/three_web_demo#readme",
-  "dependencies": {
-    "axios": "^1.4.0",
-    "http-server": "^14.1.1",
-    "three": "^0.153.0"
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.8.3"
   }
 }
