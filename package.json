@@ -1,0 +1,26 @@
+{
+  "name": "three_web_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Realistic3D/three_web_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Realistic3D/three_web_demo/issues"
+  },
+  "homepage": "https://github.com/Realistic3D/three_web_demo#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "http-server": "^14.1.1",
+    "three": "^0.153.0"
+  }
+}
