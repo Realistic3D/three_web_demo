@@ -1,5 +1,10 @@
 import Scene from "./src/tools/Scene";
 
-function Start() {
-    console.log("START");
+async function Start() {
+    const canvas = document.querySelector('canvas.webgl');
+    console.log(canvas);
+    const scene = new Scene(canvas);
 }
+
+
+Start().then();
