@@ -22,6 +22,14 @@ export default class Scene {
 
         this.setScene();
     }
+    add(obj) {
+        if(!obj) return;
+        this.scene.add(obj);
+    }
+    remove(obj) {
+        if(!obj || obj.parent !== this.scene) return;
+        this.scene.remove(obj);
+    }
     setScene() {
         this.camera.position.z = 5;
         this.renderer.setSize(window.innerWidth, window.innerHeight);
